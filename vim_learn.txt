@@ -1,0 +1,18 @@
+Shopping list
+
+- apples
+- computer
+- water bottle
+- spotify payment
+
+def get_position(self, pos):
+  counter = 1
+  current = self.head
+  if position < 1:
+    return None
+  while current and counter <= position:
+    if counter == position:
+      return current
+    current = current.next
+    counter += 1
+  return None
